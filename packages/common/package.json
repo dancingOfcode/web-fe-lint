@@ -1,5 +1,5 @@
 {
-  "name": "common-xu.zhengyou",
+  "name": "common-xu.zhengyou1",
   "version": "1.0.3",
   "description": "common",
   "main": "index.js",
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "89ef88b32483d7b86c7cbcc86061336da49b1755"
 }

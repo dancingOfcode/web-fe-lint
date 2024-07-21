@@ -1,5 +1,5 @@
 {
-  "name": "test-xu.zhengyou",
+  "name": "test-xu.zhengyou1",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "common": "*"
-  }
+  },
+  "gitHead": "89ef88b32483d7b86c7cbcc86061336da49b1755"
 }
