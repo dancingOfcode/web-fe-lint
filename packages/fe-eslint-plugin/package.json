@@ -1,12 +1,13 @@
 {
     "name": "fe-eslint-plugin",
     "version": "1.0.2",
-    "description": "eslintPlugin eslint插件 web前端规范",
+    "description": "eslintPlugin  eslint插件  web前端规范",
     "main": "index.js",
     "keywords": [
         "eslint",
         "eslintPlugin"
     ],
     "license": "ISC",
-    "author": "xu.zhengyou@byd.com"
+    "author": "xu.zhengyou@byd.com",
+    "gitHead": "131c93e1b7fc40babf42d6a3fa042c9209ea3479"
 }
