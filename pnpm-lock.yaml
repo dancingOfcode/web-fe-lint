@@ -12,13 +12,17 @@ importers:
         specifier: ^8.1.6
         version: 8.1.7(encoding@0.1.13)
 
-  packages/common: {}
+  packages/fe-eslint-plugin: {}
 
-  packages/test:
-    dependencies:
-      common:
-        specifier: '*'
-        version: 0.2.5
+  packages/web-fe-commitlint: {}
+
+  packages/web-fe-eslint: {}
+
+  packages/web-fe-lint: {}
+
+  packages/web-fe-markdownlint: {}
+
+  packages/web-fe-stylelint: {}
 
 packages:
 
@@ -562,9 +566,6 @@ packages:
 
   common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
-
-  common@0.2.5:
-    resolution: {integrity: sha512-bjuztiY8Wcz2V9dPpa0XdF0unGWqAGsnyKDGV7g6xDcaZfpufRrxV35qhuhjwv1h0jEPeiCHWKAQFLj702jGnA==}
 
   compare-func@2.0.0:
     resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==}
@@ -2818,8 +2819,6 @@ snapshots:
       delayed-stream: 1.0.0
 
   common-ancestor-path@1.0.1: {}
-
-  common@0.2.5: {}
 
   compare-func@2.0.0:
     dependencies:
