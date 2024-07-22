@@ -1,6 +1,6 @@
 {
     "name": "web-fe-markdownlint",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "markdownlint md文档规范 web前端规范",
     "main": "index.js",
     "keywords": [
@@ -9,6 +9,5 @@
         "web-standard"
     ],
     "license": "ISC",
-    "author": "xu.zhengyou@byd.com",
-    "dependencies": {}
+    "author": "xu.zhengyou@byd.com"
 }

@@ -1,6 +1,6 @@
 {
     "name": "web-fe-lint",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "eslint javascript/typescript编码规范 vue/react编码规范 web前端规范",
     "main": "index.js",
     "keywords": [
@@ -11,6 +11,5 @@
         "front-end-lint"
     ],
     "license": "ISC",
-    "author": "xu.zhengyou@byd.com",
-    "dependencies": {}
+    "author": "xu.zhengyou@byd.com"
 }

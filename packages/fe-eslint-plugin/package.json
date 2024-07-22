@@ -1,6 +1,6 @@
 {
     "name": "fe-eslint-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "eslintPlugin eslint插件 web前端规范",
     "main": "index.js",
     "keywords": [
@@ -8,6 +8,5 @@
         "eslintPlugin"
     ],
     "license": "ISC",
-    "author": "xu.zhengyou@byd.com",
-    "dependencies": {}
+    "author": "xu.zhengyou@byd.com"
 }
