@@ -2,7 +2,7 @@
  * @Date: 2024-07-22 23:12:17
  * @Author: dancingOfcode zhengyou007@163.com
  * @LastEditors: dancingOfcode zhengyou007@163.com
- * @LastEditTime: 2024-07-22 23:45:16
+ * @LastEditTime: 2024-07-22 23:58:23
  * @Description: 这是默认设置
  */
 
@@ -17,8 +17,8 @@ export default defineUserConfig({
   description: "这是我的第一个 VuePress 站点",
   bundler: viteBundler(),
   theme: defaultTheme({
-    logo: "/images/logo.jpg",
-    heroImage: "/images/logo.jpg",
+    logo: "/images/feLogo.jpg",
+    heroImage: "/images/feLogo.jpg",
     // 在这里进行配置
     navbar: [
       // NavbarItem
