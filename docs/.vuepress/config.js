@@ -1,70 +1,133 @@
-/*
- * @Date: 2024-07-22 23:12:17
- * @Author: dancingOfcode zhengyou007@163.com
- * @LastEditors: dancingOfcode zhengyou007@163.com
- * @LastEditTime: 2024-07-22 23:58:23
- * @Description: 这是默认设置
- */
-
+import { defineUserConfig } from "vuepress";
+import { searchPlugin } from "@vuepress/plugin-search";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default";
-import { defineUserConfig } from "vuepress";
 
 export default defineUserConfig({
   lang: "zh-CN",
   base: "/web-fe-lint/",
-  title: "你好， VuePress ！",
-  description: "这是我的第一个 VuePress 站点",
+  title: "前端开发规范",
+  description: "web前端开发规范",
   bundler: viteBundler(),
   theme: defaultTheme({
-    logo: "/images/feLogo.jpg",
-    heroImage: "/images/feLogo.jpg",
-    // 在这里进行配置
+    logo: "/images/feLogo2.jpg",
+    // header菜单配置
     navbar: [
-      // NavbarItem
       {
         text: "首页",
-        link: "/",
+        link: "/index.md",
       },
       {
-        text: "网络",
-        link: "/network/",
+        text: "编码规范",
+        children: [
+          { text: "HTML 编码规范", link: "/coding/html.md" },
+          { text: "CSS 编码规范", link: "/coding/css.md" },
+          { text: "JavaScript 编码规范", link: "/coding/javascript.md" },
+          { text: "Typescript 编码规范", link: "/coding/typescript.md" },
+          { text: "Node 编码规范", link: "/coding/node.md" },
+        ],
       },
       {
-        text: "设计模式",
-        link: "/designPatterns/",
+        text: "工程规范",
+        children: [
+          { text: "Git 规范", link: "/engineering/git.md" },
+          { text: "文档规范", link: "/engineering/doc.md" },
+          { text: "CHANGELOG 规范", link: "/engineering/changelog.md" },
+        ],
+      },
+      {
+        text: "NPM包",
+        children: [
+          { text: "web-fe-eslint", link: "/npm/eslint.md" },
+          { text: "web-fe-stylelint", link: "/npm/stylelint.md" },
+          { text: "web-fe-commitlint", link: "/npm/commitlint.md" },
+          { text: "web-fe-markdownlint", link: "/npm/markdownlint.md" },
+          { text: "eslint-plugin-fe", link: "/npm/eslint-plugin-fe.md" },
+        ],
+      },
+      {
+        text: "脚手架",
+        children: [{ text: "web-fe-lint", link: "/cli/web-fe-lint.md" }],
       },
     ],
-    // 侧边栏对象
-    // 不同子路径下的页面会使用不同的侧边栏
+    // 侧边栏配置
     sidebar: {
-      "/network/": [
+      "/coding/": [
         {
-          text: "网络",
+          text: "编码规范",
           children: [
             {
-              text: "一张图帮你看懂，在浏览器输入网址回车后，都发生了什么？",
-              link: "/network/一张图帮你看懂，在浏览器输入网址回车后，都发生了什么？.md",
+              text: "HTML 编码规范",
+              link: "/coding/html.md",
             },
             {
-              text: "在Jekyll中创建一个新的列表页面",
-              link: "/network/在Jekyll中创建一个新的列表页面.md",
+              text: "CSS 编码规范",
+              link: "/coding/css.md",
+            },
+            {
+              text: "JavaScript 编码规范",
+              link: "/coding/javascript.md",
+            },
+            {
+              text: "Typescript 编码规范",
+              link: "/coding/typescript.md",
+            },
+            {
+              text: "Node 编码规范",
+              link: "/coding/node.md",
             },
           ],
         },
       ],
-      "/designPatterns/": [
+      "/engineering/": [
         {
-          text: "设计模式",
-          collapsible: true,
+          text: "工程规范",
           children: [
             {
-              text: "单例模式--我的机器人女友",
-              link: "/designPatterns/单例模式--我的机器人女友.md",
+              text: "Git 规范",
+              link: "/engineering/git.md",
+            },
+            {
+              text: "文档规范",
+              link: "/engineering/doc.md",
+            },
+            {
+              text: "CHANGELOG 规范",
+              link: "/engineering/changelog.md",
             },
           ],
+        },
+      ],
+      "/npm/": [
+        {
+          text: "NPM包",
+          children: [
+            { text: "web-fe-eslint", link: "/npm/eslint.md" },
+            { text: "web-fe-stylelint", link: "/npm/stylelint.md" },
+            { text: "web-fe-commitlint", link: "/npm/commitlint.md" },
+            {
+              text: "web-fe-markdownlint",
+              link: "/npm/markdownlint.md",
+            },
+            { text: "eslint-plugin-fe", link: "/npm/eslint-plugin-fe.md" },
+          ],
+        },
+      ],
+      "/cli/": [
+        {
+          text: "脚手架",
+          children: [{ text: "web-fe-lint", link: "/cli/web-fe-lint.md" }],
         },
       ],
     },
   }),
+  plugins: [
+    searchPlugin({
+      locales: {
+        "/": {
+          placeholder: "搜索文档",
+        },
+      },
+    }),
+  ],
 });

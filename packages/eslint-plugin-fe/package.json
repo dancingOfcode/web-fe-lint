@@ -1,6 +1,6 @@
 {
-    "name": "fe-eslint-plugin",
-    "version": "1.0.2",
+    "name": "eslint-plugin-fe",
+    "version": "1.0.0",
     "description": "eslintPlugin  eslint插件  web前端规范",
     "main": "index.js",
     "keywords": [
