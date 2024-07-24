@@ -4,13 +4,15 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default";
 
 export default defineUserConfig({
-  lang: "zh-CN",
+  lang: "zh-en",
   base: "/web-fe-lint/",
-  title: "前端开发规范",
-  description: "web前端开发规范",
+  title: "前端规范",
+  description: "web前端规范",
   bundler: viteBundler(),
   theme: defaultTheme({
     logo: "/images/feLogo2.jpg",
+    lastUpdated: false, // 更新时间
+    contributors: false, // 贡献者
     // header菜单配置
     navbar: [
       {
