@@ -8,9 +8,10 @@ export default defineUserConfig({
   base: "/web-fe-lint/",
   title: "前端规范",
   description: "web前端规范",
+  head: [["link", { rel: "icon", href: "./images/favicon.png" }]],
   bundler: viteBundler(),
   theme: defaultTheme({
-    logo: "/images/feLogo2.jpg",
+    logo: "/images/feLogo.jpg",
     lastUpdated: false, // 更新时间
     contributors: false, // 贡献者
     // header菜单配置
