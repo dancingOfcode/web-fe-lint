@@ -1007,7 +1007,6 @@ author:
   const foo = '\'this\' is "quoted"';
 
   // good
-  const foo = '\'this\' is "quoted"';
   const foo = `'this' is "quoted"`;
   ```
 
@@ -1237,7 +1236,7 @@ author:
   // bad
   const bad = {
     foo: 3,
-    bar: 4,
+    "bar": 4,
     'data-blah': 5,
     'one two': 12,
   };
@@ -1276,11 +1275,6 @@ author:
   替代 `Object.assign` 方法，来进行对象的浅拷贝：
 
   ```javascript
-  // very bad - original 会被影响
-  const original = { a: 1, b: 2 };
-  const copy = Object.assign(original, { c: 3 }); // copy => { a: 1, b: 2, c: 3 }  original => { a: 1, b: 2, c: 3 }
-  delete copy.a; // copy => { b: 2, c: 3 }  original => { b: 2, c: 3 }
-
   // bad
   const original = { a: 1, b: 2 };
   const copy = Object.assign({}, original, { c: 3 }); // copy => { a: 1, b: 2, c: 3 }
@@ -1469,7 +1463,7 @@ author:
 
     当函数体只包含一条 `return` 语句时，可以省略函数体大括号和 `return`，以使代码更简洁。
 
-    我们推荐使用这个 ES6 提供的语法糖，它可以让书写和阅读更简洁。但你也可以选择始终加上大括号和 `return`，以方便后续在函数体内增加语句。
+    推荐使用这个 ES6 提供的语法糖，它可以让书写和阅读更简洁。但你也可以选择始终加上大括号和 `return`，以方便后续在函数体内增加语句。
 
     ```javascript
     // good - 函数体包含多条语句时，始终加上大括号
@@ -1522,7 +1516,7 @@ author:
 
     当函数只有一个参数，且函数体为 `return` 简写语法时，可以省略包裹参数的小括号以使代码更简洁。
 
-    我们建议仅在这种情况下省略包裹参数的小括号，其余情况都不要省略小括号。但你也可以选择始终加上小括号，以方便后续可能要增加参数。
+    建议仅在这种情况下省略包裹参数的小括号，其余情况都不要省略小括号。但你也可以选择始终加上小括号，以方便后续可能要增加参数。
 
     ```javascript
     // good - 未使用 return 简写语法时，参数始终加上小括号
@@ -1532,7 +1526,7 @@ author:
     });
 
     // good - 使用 return 简写语法、且只有一个参数时，可以也建议省略参数的小括号
-    [1, 2, 3].map((x) => x * x);
+    [1, 2, 3].map(x => x * x);
 
     // good - 也可以选择始终不省略参数的小括号，以方便后续可能要增加参数
     [1, 2, 3].map((x) => x * x);
@@ -1846,7 +1840,7 @@ author:
 
 - 2.6.4.【强制】正确地使用 super 方法。eslint: [constructor-super](https://eslint.org/docs/rules/constructor-super) [no-this-before-super](https://eslint.org/docs/rules/no-this-before-super)
 
-  - 子类的 `constructor` 中必须使用 `super()`，且必须在 `this` 和 `super` 关键词前调用
+  - 子类的 `constructor` 中必须使用 `super()`，且必须在 `this` 关键词前调用
   - 非子类的 `constructor` 中不能使用 `super()`
 
   ```javascript
@@ -2146,19 +2140,19 @@ author:
 
   ```javascript
   // bad
-  const foo = (a && b < 0) || c > 0 || d + 1 === 0;
+  const foo = a && b < 0 || c > 0 || d + 1 === 0;
 
   // good
   const foo = (a && b < 0) || c > 0 || d + 1 === 0;
 
   // bad
-  const bar = a ** b - (5 % d);
+  const bar = a ** b - 5 % d;
 
   // good
   const bar = a ** b - (5 % d);
 
   // bad - 有人可能会误以为执行顺序是 (a || b) && c
-  if (a || (b && c)) {
+  if (a || b && c) {
     return d;
   }
 
