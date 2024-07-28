@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "clean": "lerna clean && rm -rf node_modules",
     "publish": "lerna publish"
   },
+  "keywords": [
+    "eslint",
+    "web fe lint"
+  ],
   "workspaces": [
     "packages/*"
   ],
