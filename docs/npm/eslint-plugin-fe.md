@@ -1,16 +1,16 @@
 ---
-title: eslint-plugin-encode
+title: eslint-plugin-fe
 author:
   name: xu.zhengyou
   link: https://github.com/dancingOfcode/web-fe-lint
 ---
 
-# eslint-plugin-encode
+# eslint-plugin-fe
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install eslint-plugin-encode eslint --save-dev
+npm install eslint-plugin-fe eslint --save-dev
 ```
 
 ## 使用
@@ -20,9 +20,9 @@ $ npm install eslint-plugin-encode eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['eslint-config-encode'],
+  plugin: ['eslint-plugin-fe'],
   rules: {
-    'eslint-plugin-encode/no-secret-info': 'error',
+    'eslint-plugin-fe/no-secret-info': 'error',
   },
 };
 ```
@@ -32,7 +32,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:eslint-plugin-encode/recommended',
+  extends: 'plugin:eslint-plugin-fe/recommended',
 };
 ```
 

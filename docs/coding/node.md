@@ -8,7 +8,7 @@ author:
 # Node 编码规范
 
 :::tip
-`Node.js` 规范主要包含编码风格、安全规范、最佳实践等几个部分，目的是给业务同学提供研发过程中的实质性规范和指导。其中编码风格 follow [eslint-config-egg](https://github.com/eggjs/eslint-config-egg)。
+`Node.js` 规范主要包含编码风格、安全规范、最佳实践等几个部分，目的是提供给研发过程中的实质性规范和指导。其中编码风格 follow [eslint-config-egg](https://github.com/eggjs/eslint-config-egg)。
 :::
 
 ## 1. 编码风格

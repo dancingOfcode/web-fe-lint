@@ -1,11 +1,11 @@
 ---
-title: markdownlint-config-encode
+title: web-fe-markdownlint
 author:
   name: xu.zhengyou
   link: https://github.com/dancingOfcode/web-fe-lint
 ---
 
-# markdownlint-config-encode
+# web-fe-markdownlint
 
 :::tip
 MD文档 规范
@@ -18,7 +18,7 @@ MD文档 规范
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install markdownlint-config-encode markdownlint --save-dev
+npm install web-fe-markdownlint markdownlint --save-dev
 ```
 
 ## 使用
@@ -27,6 +27,6 @@ npm install markdownlint-config-encode markdownlint --save-dev
 
 ```json
 {
-  "extends": "markdownlint-config-encode"
+  "extends": "web-fe-markdownlint"
 }
 ```

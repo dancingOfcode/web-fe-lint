@@ -1,11 +1,11 @@
 ---
-title: commitlint-config-encode
+title: web-fe-commitlint
 author:
   name: xu.zhengyou
   link: https://github.com/dancingOfcode/web-fe-lint
 ---
 
-# commitlint-config-encode
+# web-fe-commitlint
 
 :::tip
 Git 规范
@@ -18,7 +18,7 @@ Git 规范
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install commitlint-config-encode @commitlint/cli --save-dev
+npm install web-fe-commitlint @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -27,7 +27,7 @@ npm install commitlint-config-encode @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['encode'],
+  extends: ['code'],
 };
 ```
 

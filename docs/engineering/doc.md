@@ -20,7 +20,7 @@ author:
   ```markdown
   <!-- bad -->
 
-  HTML 定义网页的结构与内容，CSS 定义其格式与样式，而 JavaScript 则为网页增加可交互性，创作功能丰富的 Web 应用。
+  HTML定义网页的结构与内容，CSS定义其格式与样式，而JavaScript则为网页增加可交互性，创作功能丰富的Web应用。
 
   <!-- good -->
 
@@ -32,7 +32,7 @@ author:
   ```markdown
   <!-- bad -->
 
-  截至 2012 年，所有的现代浏览器都完整的支持 ECMAScript5.1，旧版本的浏览器至少支持 ECMAScript3 标准。
+  截至2012年，所有的现代浏览器都完整的支持 ECMAScript5.1，旧版本的浏览器至少支持 ECMAScript3 标准。
 
   <!-- good -->
 
@@ -204,11 +204,11 @@ author:
   ```markdown
   <!-- bad -->
 
-  我们需要一位熟悉 Js、h5，至少理解一种框架（如 backbone、angular、RJS 等）的 FED。
+  我们需要一位熟悉 Js、h5，至少理解一种框架（如 vue、react、angular 等）。
 
   <!-- good -->
 
-  我们需要一位熟悉 JavaScript、HTML5，至少理解一种框架（如 Backbone.js、AngularJS、React 等）的前端开发者。
+  我们需要一位熟悉 JavaScript、HTML5，至少理解一种框架（如 React、Angular、Vue 等）的前端开发者。
   ```
 
 ## 附录
