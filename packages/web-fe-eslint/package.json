@@ -1,6 +1,6 @@
 {
   "name": "web-fe-eslint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "xu.zhengyou",
   "description": "eslint javascript/typescript 规范 node.js 规范 vue/react 规范",
