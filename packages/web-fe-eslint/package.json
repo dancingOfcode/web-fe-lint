@@ -1,15 +1,14 @@
 {
   "name": "web-fe-eslint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "author": "xu.zhengyou",
-  "description": "eslint javascript/typescript 规范 node.js 规范 vue/react 规范",
+  "description": "JavaScript TypeScript Node 规范",
   "keywords": [
+    "node",
     "eslint",
     "javaScript",
-    "typescript",
-    "node",
-    "lint"
+    "typescript"
   ],
   "scripts": {
     "lint": "eslint ./",

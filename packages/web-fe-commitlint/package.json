@@ -1,13 +1,24 @@
 {
-    "name": "web-fe-commitlint",
-    "version": "1.0.2",
-    "description": "git commit 提交规范 web前端规范",
-    "main": "index.js",
-    "keywords": [
-        "git",
-        "commit",
-        "commitlint"
-    ],
-    "license": "ISC",
-    "author": "xu.zhengyou"
+  "name": "web-fe-commitlint",
+  "version": "1.0.3",
+  "main": "index.js",
+  "description": "Git规范 Web前端规范",
+  "keywords": [
+    "git",
+    "commit",
+    "commitlint"
+  ],
+  "author": "xu.zhengyou",
+  "homepage": "https://github.com/dancingOfcode/web-fe-lint#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancingOfcode/web-fe-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dancingOfcode/web-fe-lint/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
 }

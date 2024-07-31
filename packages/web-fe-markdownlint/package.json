@@ -1,13 +1,23 @@
 {
-    "name": "web-fe-markdownlint",
-    "version": "1.0.2",
-    "description": "markdownlint md文档规范 web前端规范",
-    "main": "index.js",
-    "keywords": [
-        "mdlint",
-        "markdownlint",
-        "web-standard"
-    ],
-    "license": "ISC",
-    "author": "xu.zhengyou"
+  "name": "web-fe-markdownlint",
+  "version": "1.0.3",
+  "main": "index.json",
+  "description": "markdown文档规范",
+  "keywords": [
+    "md",
+    "markdownlint"
+  ],
+  "author": "xu.zhengyou",
+  "homepage": "https://github.com/dancingOfcode/web-fe-lint#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancingOfcode/web-fe-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dancingOfcode/web-fe-lint/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
 }
