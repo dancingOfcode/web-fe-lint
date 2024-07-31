@@ -1,6 +1,6 @@
 import { ESLint } from 'eslint';
 import fg from 'fast-glob';
-import { extname } from 'path';
+import { extname, join } from 'path';
 import { Config, PKG, ScanOptions } from '../../types';
 import { ESLINT_FILE_EXT, ESLINT_IGNORE_PATTERN } from '../../utils/constants';
 import { formatESLintResults } from './formatESLintResults';

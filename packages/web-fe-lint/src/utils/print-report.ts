@@ -65,6 +65,7 @@ export default (results: ScanResult[], fix: boolean): void => {
   // 扫描日志，预期:
   // ✖ x problems (y errors, z warnings)
   // y error and z warnings potentially fixable with the `web-fe-lint fix`
+  //
   // ✔ no problems
   if (!fix && total > 0) {
     output += chalk[summaryColor].bold(
