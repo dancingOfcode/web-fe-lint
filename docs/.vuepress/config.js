@@ -41,7 +41,7 @@ export default defineUserConfig({
       {
         text: "NPM包",
         children: [
-          { text: "web-fe-eslint", link: "/npm/eslint.md" },
+          { text: "eslint-config-fe", link: "/npm/eslint.md" },
           { text: "web-fe-stylelint", link: "/npm/stylelint.md" },
           { text: "web-fe-commitlint", link: "/npm/commitlint.md" },
           { text: "web-fe-markdownlint", link: "/npm/markdownlint.md" },
@@ -105,7 +105,7 @@ export default defineUserConfig({
         {
           text: "NPM包",
           children: [
-            { text: "web-fe-eslint", link: "/npm/eslint.md" },
+            { text: "eslint-config-fe", link: "/npm/eslint.md" },
             { text: "web-fe-stylelint", link: "/npm/stylelint.md" },
             { text: "web-fe-commitlint", link: "/npm/commitlint.md" },
             {

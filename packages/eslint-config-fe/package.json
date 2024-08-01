@@ -1,6 +1,6 @@
 {
-  "name": "web-fe-eslint",
-  "version": "1.0.5",
+  "name": "eslint-config-fe",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "xu.zhengyou",
   "description": "JavaScript TypeScript Node 规范",
