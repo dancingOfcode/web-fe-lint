@@ -20,13 +20,13 @@
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/plugin-search": "2.0.0-rc.39",
     "@vuepress/theme-default": "2.0.0-rc.39",
-    "lerna": "^8.1.6",
+    "lerna": "^8.1.7",
     "vuepress": "2.0.0-rc.14"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "vue": "^3.4.33"
+    "vue": "^3.4.35"
   }
 }

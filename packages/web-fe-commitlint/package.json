@@ -19,6 +19,6 @@
     "url": "https://github.com/dancingOfcode/web-fe-lint/issues"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.5.0"
+    "conventional-changelog-conventionalcommits": "^4.6.3"
   }
 }
