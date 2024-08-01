@@ -42,7 +42,7 @@ features:
 
 | 规范                                                              | Lint 工具                                                      | NPM 包                                                                                 |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [eslint-config-fe](https://www.npmjs.com/package/eslint-config-fe)             |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [eslint-config-web](https://www.npmjs.com/package/eslint-config-web)             |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [web-fe-stylelint](https://www.npmjs.com/package/web-fe-stylelint)       |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [web-fe-commitlint](https://www.npmjs.com/package/web-fe-commitlint)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [web-fe-markdownlint](https://www.npmjs.com/package/web-fe-markdownlint) |
