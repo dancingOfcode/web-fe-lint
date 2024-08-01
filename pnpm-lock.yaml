@@ -28,7 +28,7 @@ importers:
         specifier: 2.0.0-rc.14
         version: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.11)(sass@1.77.8)(typescript@5.5.3))(typescript@5.5.3)(vue@3.4.33(typescript@5.5.3))
 
-  packages/eslint-config-web:
+  packages/eslint-config-fd:
     devDependencies:
       '@babel/core':
         specifier: ^7.16.0
@@ -137,7 +137,7 @@ importers:
       eslint-config-prettier:
         specifier: ^8.3.0
         version: 8.10.0(eslint@8.57.0)
-      eslint-config-web:
+      eslint-config-fd:
         specifier: 1.0.1
         version: 1.0.1(@types/eslint@8.56.11)(eslint@8.57.0)(prettier@2.8.8)
       eslint-import-resolver-typescript:
@@ -2675,7 +2675,7 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-web@1.0.1:
+  eslint-config-fd@1.0.1:
     resolution: {integrity: sha512-LTQRV3asPFfwxrOxJ5pajdnYMMMLUhBueeYNQL13aQpDyIUKy8eaieQbw0XPMJq/21WOozhbptIMqTyUg+4s0Q==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -9032,7 +9032,7 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-config-web@1.0.1(@types/eslint@8.56.11)(eslint@8.57.0)(prettier@2.8.8):
+  eslint-config-fd@1.0.1(@types/eslint@8.56.11)(eslint@8.57.0)(prettier@2.8.8):
     dependencies:
       '@babel/core': 7.24.9
       '@babel/eslint-parser': 7.25.0(@babel/core@7.24.9)(eslint@8.57.0)
