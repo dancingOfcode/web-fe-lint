@@ -1,6 +1,6 @@
 {
   "name": "web-fe-commitlint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "description": "Git规范 Web前端规范",
   "keywords": [
