@@ -63,7 +63,7 @@ pnpm run changelog
 
 ## :email: 联系
 
-- *邮箱**: <xu.zhengyou@byd.com>
+- *邮箱**: <zhengyou007@163.com>
 - **WEB前端规范** <https://dancingOfcode.github.io/web-fe-lint/>
 - **GitHub**: <https://github.com/dancingOfcode/web-fe-lint>
 

@@ -76,6 +76,6 @@ pnpm run changelog
 
 ## :email: 联系
 
-- **<xu.zhengyou@byd.com>**
+- **<zhengyou007@163.com>**
 
 </br>
