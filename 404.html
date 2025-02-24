@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="./images/favicon.png"><title>前端规范</title><meta name="description" content="web前端规范">
+    <link rel="preload" href="/web-fe-lint/assets/style-Drz29e12.css" as="style"><link rel="stylesheet" href="/web-fe-lint/assets/style-Drz29e12.css">
+    <link rel="modulepreload" href="/web-fe-lint/assets/app-DpnVg6Lz.js"><link rel="modulepreload" href="/web-fe-lint/assets/404.html-Iy9XQDPR.js">
+    <link rel="prefetch" href="/web-fe-lint/assets/index.html-B_aK9nko.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/web-fe-lint.html-DGWVzulP.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/css.html-BC_9wJLA.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/html.html-Dj4_5HwH.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/javascript.html-gWFDLgj-.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/node.html-B1bMDFQF.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/typescript.html-2KGXjAJn.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/changelog.html-CvOyKYe9.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/doc.html-DImaVejr.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/git.html-atlSLYuW.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/index.html-B8WuXpeN.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/commitlint.html-DA8a82HI.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/eslint-plugin-fe.html-C7qp-Dn-.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/eslint.html-BkoRyphX.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/markdownlint.html-BeTFunkE.js" as="script"><link rel="prefetch" href="/web-fe-lint/assets/stylelint.html-CMJmaqHj.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-114a8e4b><main class="page" data-v-114a8e4b><div class="theme-default-content" data-v-114a8e4b><h1 data-v-114a8e4b>404</h1><blockquote data-v-114a8e4b>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/web-fe-lint/" data-v-114a8e4b>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/web-fe-lint/assets/app-DpnVg6Lz.js" defer></script>
+  </body>
+</html>
